@@ -85,7 +85,7 @@ section.powered-companies .wrapper .powered-companies-grid .grid-item {
 }
 
 section.powered-companies .wrapper .powered-companies-grid .grid-item > * {
-    width: 504px;
+    max-width: 504px;
 }
 
 section.powered-companies .wrapper .powered-companies-grid .powered-companies-description .button a {
@@ -108,7 +108,7 @@ section.social .wrapper .social-grid .grid-item {
 }
 
 section.social .wrapper .social-grid .grid-item > * {
-    width: 504px;
+    max-width: 504px;
 }
 
 section.social .wrapper .social-grid .video iframe {
