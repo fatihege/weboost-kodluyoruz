@@ -1,1 +1,135 @@
 @import "../../sections/cs50-sections.css";
+
+@media only screen and (max-width: 1280px) {
+    section p.section-paragraph {
+        max-width: 90vw;
+        width: 90vw;
+        margin: 16px auto;
+    }
+
+    section.mentors .wrapper .mentors-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        max-width: 90vw;
+    }
+
+    section.partners .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.partners .wrapper .partners-grid {
+        padding: 12px 8px;
+        max-width: 90vw;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section.press .wrapper .press-grid {
+        max-width: 90vw;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section.azerbaijan .wrapper {
+        max-width: 90vw;
+    }
+
+    section.what-is .wrapper {
+        max-width: 90vw;
+    }
+
+    section.mentorship .wrapper .description-grid {
+        flex-direction: column;
+    }
+
+    section.mentorship .wrapper .description-grid .grid-item p {
+        max-width: 90vw;
+    }
+
+    section.mentorship .wrapper .description-grid .grid-item .button {
+        text-align: center;
+    }
+
+    section.story .wrapper {
+        max-width: 90vw;
+    }
+
+    section.story .wrapper .description-grid {
+        flex-direction: column;
+    }
+
+    section.story .wrapper .description-grid .grid-item {
+        padding: 0 0;
+        width: 90vw;
+    }
+
+    section.story .wrapper .description-grid .grid-item > * {
+        max-width: 90vw;
+    }
+
+    section.story .wrapper .description-grid .description-video iframe {
+        width: 90vw;
+    }
+
+    section.acknowledgements .wrapper .acknowledgements-grid {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+
+    section.acknowledgements .wrapper .acknowledgements-grid .grid-item {
+        max-width: 90vw;
+    }
+
+    .promise p {
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 48px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 18px;
+    }
+
+    section.mentors .wrapper .mentors-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.partners .wrapper .partners-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.press .wrapper .press-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section h2.section-title,
+    section h2.section-title-white {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    section.mentors .wrapper .mentors-grid {
+        grid-template-columns: 1fr;
+    }
+}

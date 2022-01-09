@@ -7,6 +7,10 @@ section.hero .video {
     margin: 40px 0;
 }
 
+section.hero .video iframe {
+    max-width: 90vw;
+}
+
 /* Azerbaijan Section */
 section.azerbaijan .wrapper {
     max-width: 1152px;
@@ -41,7 +45,7 @@ section.mentorship .wrapper .description-grid .grid-item {
 }
 
 section.mentorship .wrapper .description-grid .grid-item p {
-    width: 504px;
+    max-width: 504px;
 }
 
 section.mentorship .wrapper .description-grid .grid-item .button a {
@@ -117,8 +121,8 @@ section.story .wrapper .description-grid .grid-item {
     padding: 0 36px;
 }
 
-section.story .wrapper .description-grid .grid-item > *:first-child {
-    width: 504px;
+section.story .wrapper .description-grid .grid-item > * {
+    max-width: 504px;
 }
 
 /* Partners Section */
@@ -193,7 +197,7 @@ section.acknowledgements .wrapper {
 
 section.acknowledgements .wrapper .acknowledgements-grid {
     display: grid;
-    grid-template-columns: 528px 528px;
+    grid-template-columns: 528px auto;
     column-gap: 32px;
     padding: 0 32px;
     margin: 96px 0;
@@ -204,6 +208,7 @@ section.acknowledgements .wrapper .acknowledgements-grid .grid-item {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    max-width: 90vw;
 }
 
 section.acknowledgements .wrapper .acknowledgements-grid .acknowledgements-text h4 {
