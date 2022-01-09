@@ -1,0 +1,68 @@
+/* Hero Section */
+section.hero::before {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/hi-kod-hero-bg.png");
+}
+
+section.hero::after {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/hi-kod-hero-bg.png");
+}
+
+/* Offers Section */
+section.offers .wrapper .offers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    max-width: 1160px;
+}
+
+section.offers .wrapper .offers-grid .offer .offer-image {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+section.offers .wrapper .offers-grid .offer .offer-image img {
+    width: 160px;
+}
+
+section.offers .wrapper .offers-grid .offer .offer-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #404040;
+    line-height: 32px;
+}
+
+section.offers .wrapper .offers-grid .offer .offer-button {
+    margin-top: 20px;
+}
+
+/* Purpose Section */
+section.purpose .wrapper {
+    max-width: 1152px;
+}
+
+section.purpose .wrapper .description p {
+    padding-bottom: 40px;
+}
+
+/* LevelUp Section */
+section.levelup .wrapper {
+    max-width: 1152px;
+}
+
+section.levelup .wrapper .levelup-grid .levelup-image,
+section.levelup .wrapper .levelup-grid .levelup-description {
+    padding: 0 36px;
+}
+
+section.levelup .wrapper .levelup-grid .levelup-image img {
+    max-width: 504px;
+}
+
+section.levelup .wrapper .levelup-grid .levelup-description {
+    padding-bottom: 40px;
+}
+
+section.levelup .wrapper .levelup-grid .levelup-description ul {
+    padding-left: 16px;
+}

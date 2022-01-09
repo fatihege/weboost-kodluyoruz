@@ -1,0 +1,332 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+html, body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.orange-link-thin {
+    color: #1a202c;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+a.orange-link-thin:hover {
+    color: #fb923c;
+}
+
+a.orange-link-thin-white {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+a.orange-link-thin-white:hover {
+    color: #fb923c;
+}
+
+a.orange-link-normal-white {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+a.orange-link-normal-white:hover {
+    color: #fb923c;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-i-flex {
+    display: inline-flex;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-stretch {
+    justify-content: stretch;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.direct-col {
+    flex-direction: column;
+}
+
+.f-nowrap {
+    flex-wrap: nowrap;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ov-hidden {
+    overflow: hidden;
+}
+
+/* Buttons */
+.orange-fade-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #fb933e;
+    padding: 16px 40px;
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -ms-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.orange-fade-btn:hover {
+    background: #fdba74;
+}
+
+.orange-underline-btn {
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fb923c;
+    border-radius: 9999px;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.orange-underline-btn:hover {
+    text-decoration: underline;
+}
+
+.gradient-underline-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 12px 24px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 9999px;
+    background-image: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    color: #ffffff;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.gradient-underline-btn:hover {
+    text-decoration: underline;
+}
+
+/* Section Globals */
+.gradient-bg {
+    background-image: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    color: #ffffff;
+}
+
+.section-defaults {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.section-wrapper-defaults {
+    padding: 16px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-paddings-y40 {
+    padding: 40px 0;
+}
+
+.section-paddings-y16 {
+    padding: 16px 0;
+}
+
+.section-light-gray {
+    background: #f5f5f5;
+}
+
+.section-too-light-gray {
+    background: #fafafa;
+}
+
+.section-gradient {
+    background-image: linear-gradient(90deg, rgba(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6));
+    color: #ffffff;
+}
+
+.thin-section-paragraph {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    color: #1a202c;
+}
+
+.thin-section-paragraph-white {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.thin-section-paragraph strong,
+.thin-section-paragraph em {
+    font-weight: 700;
+}
+
+.thin-section-paragraph em {
+    font-style: italic;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+    color: #171717;
+    display: inline-block;
+}
+
+.section-title-white {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.section-paragraph {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 28px;
+}
+
+.section-hero-defaults {
+    padding: 24px 0 128px;
+    position: relative;
+}
+
+.section-hero-defaults::before,
+.section-hero-defaults::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease 500ms;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-hero-defaults::before {
+     z-index: -100;
+     opacity: 1;
+ }
+
+.section-hero-defaults::after {
+    z-index: -101;
+    opacity: 0;
+}
+
+.section-hero-wrapper-defaults {
+    margin: 224px auto 0;
+    padding: 0 24px;
+}
+
+.section-hero-wrapper-defaults > div {
+    text-align: center;
+    color: #fff;
+}
+
+.section-hero-wrapper-defaults > div h2 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -1.5px;
+}
+
+.section-hero-wrapper-defaults > div .mission {
+    font-size: 20px;
+    margin: 20px auto 0;
+    line-height: 28px;
+    background: none;
+    display: inline-block;
+    word-break: break-word;
+    max-width: 768px;
+}
+
+.section-hero-wrapper-defaults > div .mission .sponsor-logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.section-hero-wrapper-defaults > div .mission .sponsor-logo img {
+    width: 148px;
+}

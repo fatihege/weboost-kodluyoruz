@@ -1,0 +1,201 @@
+/* Hero Section */
+section.hero::before {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/kodluyoruz-junior-hero-bg.jpg");
+}
+
+section.hero::after {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/kodluyoruz-junior-hero-bg.jpg");
+}
+
+/* Future Gens Section */
+section.future-gens .wrapper {
+    max-width: 1152px;
+}
+
+section.future-gens .wrapper .button {
+    margin: 20px 0;
+}
+
+/* LevelUp Section */
+section.levelup .wrapper {
+    max-width: 1152px;
+}
+
+section.levelup .wrapper .button {
+    margin: 20px 0;
+}
+
+/* Open Source Section */
+section.open-source .wrapper .open-source-grid {
+    display: grid;
+    grid-template-columns: 288px 288px 288px 288px;
+    column-gap: 2px;
+}
+
+section.open-source .wrapper .open-source-grid .grid-item .grid-item-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+/* BSH Section */
+section.bsh .wrapper .bsh-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.bsh .wrapper .bsh-grid .grid-item {
+    padding: 0 36px;
+}
+
+section.bsh .wrapper .bsh-grid .grid-item > * {
+    width: 504px;
+}
+
+section.bsh .wrapper .bsh-grid .bsh-description ul {
+    padding-left: 16px;
+}
+
+section.bsh .wrapper .bsh-grid .bsh-description .button a {
+    margin: 20px 0;
+}
+
+/* Hi-Kod Section */
+section.hi-kod .hi-kod-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.hi-kod .hi-kod-grid .grid-item {
+    padding: 0 36px;
+}
+
+section.hi-kod .hi-kod-grid .grid-item > * {
+    width: 504px;
+}
+
+section.hi-kod .hi-kod-grid .hi-kod-description .button a {
+    margin: 20px 0;
+}
+
+/* Other Section */
+section.other .wrapper .other-grid {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+section.other .wrapper .other-grid .project {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+section.other .wrapper .other-grid .project,
+section.other .wrapper .other-grid .project a {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+section.other .wrapper .other-grid .project a {
+    color: #000;
+    text-decoration: none;
+}
+
+section.other .wrapper .other-grid .project .project-image {
+    position: relative;
+    height: 224px;
+    width: 370px;
+    overflow: hidden;
+}
+
+section.other .wrapper .other-grid .project .project-image img {
+    min-height: 100%;
+    width: 370px;
+    object-fit: cover;
+}
+
+section.other .wrapper .other-grid .project .project-info {
+    padding: 16px 24px;
+    text-align: left;
+}
+
+section.other .wrapper .other-grid .project .project-info .project-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+section.other .wrapper .other-grid .project .project-info .read-more a {
+    text-decoration: underline;
+}
+
+section.other .wrapper .other-grid .project .project-info .read-more a:hover {
+    color: #fb923c;
+}
+
+/* Fellows Section */
+section.fellows .wrapper .fellows-grid {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    column-gap: 18px;
+    row-gap: 18px;
+    width: 1152px;
+    max-width: 1152px;
+}
+
+section.fellows .wrapper .fellows-grid .fellow {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+section.fellows .wrapper .fellows-grid .fellow .fellow-image {
+    height: 255px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.fellows .wrapper .fellows-grid .fellow .fellow-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    min-width: 280px;
+}
+
+section.fellows .wrapper .fellows-grid .fellow .fellow-info {
+    padding: 14px 24px 32px;
+    text-align: left;
+}
+
+section.fellows .wrapper .fellows-grid .fellow .fellow-name h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 28px;
+    text-shadow: 0 0 0 #32577f;
+}
+
+section.fellows .wrapper .fellows-grid .fellow .fellow-role {
+    font-size: 16px;
+    font-weight: 100;
+    color: #262626;
+    line-height: 22.4px;
+}
+
+/* Be Partner Section */
+.be-partner {
+    padding: 16px 0;
+}

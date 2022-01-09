@@ -1,0 +1,226 @@
+/* Hero Section */
+section.hero::before {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/hero-bg.jpg");
+}
+
+section.hero::after {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/hero-bg.jpg");
+}
+
+section.hero .wrapper > div .apply {
+    margin: 32px auto 0;
+}
+
+/* How It Works Section */
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper .block {
+    margin: 4px 0;
+    padding: 0 4px;
+    width: 376px;
+}
+
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper .block .image {
+    width: 160px;
+    height: 160px;
+}
+
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper .block .image img {
+    max-width: 100%;
+    width: 160px;
+}
+
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper .block .title {
+    line-height: 32px;
+    font-size: 24px;
+    color: #404040;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: normal;
+}
+
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper .block .description p {
+    color: #1a202c;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+section.how-it-works .wrapper .feature-blocks .blocks-wrapper .block .button {
+    margin-top: 20px;
+}
+
+/* Open Source Section */
+section.open-source .wrapper p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+section.open-source .wrapper .button {
+    margin: 20px 0;
+}
+
+/* Equality Section */
+section.equality .wrapper {
+    text-align: center;
+}
+
+section.equality .wrapper .top {
+    padding: 64px 16px 40px;
+    background-color: #fafafa;
+}
+
+section.equality .wrapper .odds {
+    margin: 0 auto 0;
+    padding: 0 32px 64px 32px;
+}
+
+section.equality .wrapper .odds .absolute-gray {
+    position: absolute;
+    width: 100%;
+    background: #fafafa;
+    height: calc(152px / 2);
+    left: 0;
+    z-index: 1;
+}
+
+section.equality .wrapper .odds-wrapper {
+    margin: 0 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 900px;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+section.equality .wrapper .odds-wrapper .odd {
+    border-right: 1px solid #f5f5f5;
+    padding: 24px;
+}
+
+section.equality .wrapper .odds-wrapper .odd:last-child {
+    border-right: none;
+}
+
+section.equality .wrapper .odds-wrapper .odd p.percent {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+section.equality .wrapper .odds-wrapper .odd p.description {
+    color: #737373;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Success Stories Section */
+section.success-stories .wrapper .videos .video {
+    padding: 0 36px;
+    height: 340px;
+}
+
+section.success-stories .wrapper .videos .video iframe {
+    border-radius: 4px;
+}
+
+/* Promotion Section */
+section.promotion .wrapper .promotion-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: max-content;
+}
+
+section.promotion .wrapper .promotion-grid .sponsors, section.promotion .wrapper .promotion-grid .video {
+    padding: 0 36px;
+}
+
+section.promotion .wrapper .promotion-grid .sponsors .sponsor a img {
+    max-width: 256px;
+    display: inline-block;
+}
+
+section.promotion .wrapper .promotion-grid .sponsors .button {
+    margin-top: 20px;
+}
+
+section.promotion .wrapper .promotion-grid .video iframe {
+    border-radius: 4px;
+}
+
+/* Awards Section */
+section.awards .wrapper {
+    width: 66.666667%;
+}
+
+section.awards .wrapper .texts {
+    padding: 64px 32px 16px;
+}
+
+section.awards .wrapper .awards-wrapper {
+    padding: 64px 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.awards .wrapper .awards-wrapper img {
+    vertical-align: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Partners Section */
+section.partners .wrapper .partners-grid {
+    padding: 12px 8px;
+}
+
+section.partners .wrapper .partners-grid .partners-wrapper {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2px;
+    row-gap: 2px;
+    width: max-content;
+}
+
+section.partners .wrapper .partners-grid .partners-wrapper .partner {
+    padding: 12px;
+    width: 100%;
+}
+
+section.partners .wrapper .partners-grid .partners-wrapper .partner img {
+    max-width: 150px;
+}
+
+/* Podcast Section */
+section.podcast .wrapper .details {
+    padding: 16px 0;
+    margin: 0 auto;
+    max-width: 1152px;
+}
+
+section.podcast .wrapper .details .button {
+    margin: 20px 0;
+}
+
+/* Mission Section */
+.mission .mission-wrapper {
+    padding: 16px 0;
+    text-align: center;
+    margin: 0 60px;
+}
+
+.mission .mission-wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+}

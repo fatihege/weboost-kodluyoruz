@@ -1,0 +1,75 @@
+/* Hero Section */
+section.hero::before {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/kodla-donusturelim-hero-bg.jpg");
+}
+
+section.hero::after {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/kodla-donusturelim-hero-bg.jpg");
+}
+
+/* Kodla Donusturelim Section */
+section.kodla-donusturelim .videos {
+    padding-bottom: 69px;
+}
+
+section.kodla-donusturelim .videos .video {
+    padding: 0 36px;
+}
+
+section.kodla-donusturelim .videos .video iframe {
+    border-radius: 4px;
+}
+
+/* Offers Section */
+section.offers .offers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1152px;
+}
+
+section.offers .offers-grid .offers-block {
+    padding: 0 36px;
+}
+
+section.offers .offers-grid .offers-block > a {
+    margin: 20px 0;
+}
+
+section.offers .offers-grid .offers-block > ul {
+    text-align: left;
+}
+
+/* Goals Section */
+section.goals .wrapper {
+    padding: 16px 100px 92px;
+    margin: 0 auto;
+}
+
+/* Events Section */
+section.events .wrapper {
+    width: 91.666667%;
+    padding: 24px 0;
+}
+
+section.events .wrapper .button {
+    margin: 20px 0;
+}
+
+/* Supporter Section */
+section.supporter .wrapper .title p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+    color: #737373;
+}
+
+section.supporter .wrapper .supporter-image {
+    padding: 12px 8px;
+    margin: 0 auto;
+}
+
+section.supporter .wrapper .supporter-image .image-wrapper {
+    padding: 12px;
+    margin-top: 32px;
+}

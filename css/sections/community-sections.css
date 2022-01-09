@@ -1,0 +1,265 @@
+/* Hero Section */
+section.hero::before {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/community-hero-bg.jpg");
+}
+
+section.hero::after {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/community-hero-bg.jpg");
+}
+
+/* What Is Section */
+section.what-is .wrapper {
+    max-width: 1152px;
+}
+
+section.what-is .wrapper .button {
+    margin: 20px 0;
+}
+
+/* Move On Section */
+section.move-on .wrapper .move-on-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.move-on .wrapper .move-on-grid .move-on-paragraph,
+section.move-on .wrapper .move-on-grid .move-on-image {
+    padding: 0 36px;
+}
+
+section.move-on .wrapper .move-on-grid .move-on-paragraph p,
+section.move-on .wrapper .move-on-grid .move-on-image img {
+    width: 504px;
+}
+
+section.move-on .wrapper .move-on-grid .move-on-paragraph .button a {
+    margin: 20px 0;
+}
+
+/* Communities Section */
+section.communities .wrapper .communities-grid {
+    max-width: 1280px;
+    padding: 12px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+section.communities .wrapper .communities-grid .community {
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Future Activities Section */
+section.future-activities .wrapper {
+    max-width: 1152px;
+}
+
+section.future-activities .wrapper .activities-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    max-width: 1152px;
+}
+
+section.future-activities .wrapper .activities-grid .activity {
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+section.future-activities .wrapper .activities-grid .activity a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #171717;
+    width: 100%;
+}
+
+section.future-activities .wrapper .activities-grid .activity a .activity-image {
+    width: 100%;
+    position: relative;
+    height: 192px;
+}
+
+section.future-activities .wrapper .activities-grid .activity a .activity-image img {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    /*width: 100%;*/
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+section.future-activities .wrapper .activities-grid .activity a .activity-details {
+    padding: 24px;
+}
+
+section.future-activities .wrapper .activities-grid .activity a .activity-details .activity-status {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+section.future-activities .wrapper .activities-grid .activity a .activity-details .activity-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+section.future-activities .wrapper .activities-grid .activity a .activity-details .activity-time-place {
+    color: #737373;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+/* Old Activities Section */
+section.old-activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.old-activities .wrapper {
+    max-width: 1152px;
+    padding: 96px 32px 112px;
+}
+
+section.old-activities .wrapper .activities-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    max-width: 1152px;
+}
+
+section.old-activities .wrapper .activities-grid .activity {
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+section.old-activities .wrapper .activities-grid .activity a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #171717;
+    width: 100%;
+}
+
+section.old-activities .wrapper .activities-grid .activity a .activity-image {
+    width: 100%;
+    position: relative;
+    height: 192px;
+}
+
+section.old-activities .wrapper .activities-grid .activity a .activity-image img {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+section.old-activities .wrapper .activities-grid .activity a .activity-details {
+    padding: 24px;
+}
+
+section.old-activities .wrapper .activities-grid .activity a .activity-details .activity-status {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+section.old-activities .wrapper .activities-grid .activity a .activity-details .activity-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+section.old-activities .wrapper .activities-grid .activity a .activity-details .activity-time-place {
+    color: #737373;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+section.old-activities .wrapper .button {
+    margin-top: 40px;
+}
+
+/* Community Partners Section */
+section.community-partners .wrapper .community-partners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+    padding: 12px 8px;
+}
+
+section.community-partners .wrapper .community-partners-grid .community-partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Entrepreneurs Section */
+section.entrepreneurs .entrepreneurs-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.entrepreneurs .entrepreneurs-grid .entrepreneurs-image,
+section.entrepreneurs .entrepreneurs-grid .entrepreneurs-description {
+    padding: 0 36px;
+}
+
+section.entrepreneurs .entrepreneurs-grid .entrepreneurs-image img,
+section.entrepreneurs .entrepreneurs-grid .entrepreneurs-description p {
+    width: 504px;
+}
+
+section.entrepreneurs .entrepreneurs-grid .button a {
+    margin: 20px 0;
+}
+
+/* Be Partner Section */
+.be-partner {
+    padding: 16px 0;
+}

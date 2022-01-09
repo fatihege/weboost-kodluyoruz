@@ -1,0 +1,41 @@
+@import "../footer.css";
+
+@media only screen and (max-width: 1280px) {
+    .footer .footer-wrapper .wrapper-grid-1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .footer .footer-wrapper .wrapper-grid-1 .logo img {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer .footer-wrapper .wrapper-grid-1 .wrapper-grid-2 .footer-link-sections {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer .footer-wrapper .footer-bottom .footer-bottom-wrapper {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer .footer-wrapper .footer-bottom .footer-bottom-wrapper .footer-bottom-copyright {
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .footer .footer-wrapper .wrapper-grid-1 .wrapper-grid-2 .footer-link-sections {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 32px;
+        row-gap: 32px;
+    }
+}

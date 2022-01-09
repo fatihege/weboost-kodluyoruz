@@ -1,0 +1,13 @@
+@import "../header.css";
+@import "./mobile-menu.css";
+
+@media only screen and (max-width: 768px) {
+    header .header-wrapper .header-sections .menu-items,
+    header .header-wrapper .header-sections .header-extras {
+        display: none;
+    }
+
+    header .header-wrapper .header-sections .hamburger-menu {
+        display: flex;
+    }
+}

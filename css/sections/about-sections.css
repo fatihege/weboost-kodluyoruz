@@ -1,0 +1,271 @@
+/* Hero Section */
+section.hero::before {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/about-hero-bg.jpg");
+}
+
+section.hero::after {
+    background-image: linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)), url("../../images/about-hero-bg.jpg");
+}
+
+/* Who Is Section */
+section.who-is .wrapper .button {
+    margin: 20px 0;
+}
+
+/* Join Us Section */
+section.join-us .wrapper .button {
+    margin: 20px 0;
+}
+
+/* Our Story Section */
+section.our-story .wrapper {
+    max-width: 1152px;
+}
+
+section.our-story .wrapper .our-story-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.our-story .wrapper .our-story-grid .grid-item {
+    padding: 0 36px;
+}
+
+section.our-story .wrapper .our-story-grid .grid-item > * {
+    max-width: 504px;
+}
+
+/* Activity Report Section */
+.activity-report {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.activity-report p {
+    max-width: 1152px;
+}
+
+.activity-report p a {
+    font-weight: 400;
+}
+
+/* Strategy Advisory Section */
+section.strategy-advisory .wrapper .strategy-advisory-grid {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    column-gap: 18px;
+    row-gap: 18px;
+    width: 1152px;
+    max-width: 1152px;
+}
+
+section.strategy-advisory .wrapper .strategy-advisory-grid .person {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+section.strategy-advisory .wrapper .strategy-advisory-grid .person .person-image {
+    height: 255px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.strategy-advisory .wrapper .strategy-advisory-grid .person .person-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    min-width: 280px;
+}
+
+section.strategy-advisory .wrapper .strategy-advisory-grid .person .person-info {
+    padding: 14px 24px 32px;
+    text-align: left;
+}
+
+section.strategy-advisory .wrapper .strategy-advisory-grid .person .person-name h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 28px;
+    text-shadow: 0 0 0 #32577f;
+}
+
+section.strategy-advisory .wrapper .strategy-advisory-grid .person .person-role {
+    font-size: 16px;
+    font-weight: 100;
+    color: #262626;
+    line-height: 22.4px;
+}
+
+/* Ambassadors Section */
+section.ambassadors .wrapper .ambassadors-grid {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    column-gap: 18px;
+    row-gap: 18px;
+    width: 1152px;
+    max-width: 1152px;
+}
+
+section.ambassadors .wrapper .ambassadors-grid .ambassador {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+section.ambassadors .wrapper .ambassadors-grid .ambassador .ambassador-image {
+    height: 255px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.ambassadors .wrapper .ambassadors-grid .ambassador .ambassador-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    min-width: 280px;
+}
+
+section.ambassadors .wrapper .ambassadors-grid .ambassador .ambassador-info {
+    padding: 14px 24px 32px;
+    text-align: left;
+}
+
+section.ambassadors .wrapper .ambassadors-grid .ambassador .ambassador-name h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 28px;
+    text-shadow: 0 0 0 #32577f;
+}
+
+section.ambassadors .wrapper .ambassadors-grid .ambassador .ambassador-role {
+    font-size: 16px;
+    font-weight: 100;
+    color: #262626;
+    line-height: 22.4px;
+}
+
+/* Our Team Section */
+section.our-team .wrapper .our-team-grid {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    column-gap: 18px;
+    row-gap: 18px;
+    width: 1152px;
+    max-width: 1152px;
+}
+
+section.our-team .wrapper .our-team-grid .team-person {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+section.our-team .wrapper .our-team-grid .team-person .team-person-image {
+    height: 255px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.our-team .wrapper .our-team-grid .team-person .team-person-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    min-width: 280px;
+}
+
+section.our-team .wrapper .our-team-grid .team-person .team-person-info {
+    padding: 14px 24px 32px;
+    text-align: left;
+}
+
+section.our-team .wrapper .our-team-grid .team-person .team-person-name h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 28px;
+    text-shadow: 0 0 0 #32577f;
+}
+
+section.our-team .wrapper .our-team-grid .team-person .team-person-role {
+    font-size: 16px;
+    font-weight: 100;
+    color: #262626;
+    line-height: 22.4px;
+}
+
+/* Teachers Section */
+section.teachers .wrapper .teachers-grid {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    column-gap: 18px;
+    row-gap: 18px;
+    width: 1152px;
+    max-width: 1152px;
+}
+
+section.teachers .wrapper .teachers-grid .teacher {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 transparent, 0 0 transparent, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+section.teachers .wrapper .teachers-grid .teacher .teacher-image {
+    height: 255px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+section.teachers .wrapper .teachers-grid .teacher .teacher-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    min-width: 280px;
+}
+
+section.teachers .wrapper .teachers-grid .teacher .teacher-info {
+    padding: 14px 24px 32px;
+    text-align: left;
+}
+
+section.teachers .wrapper .teachers-grid .teacher .teacher-name h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 28px;
+    text-shadow: 0 0 0 #32577f;
+}
+
+section.teachers .wrapper .teachers-grid .teacher .teacher-role {
+    font-size: 16px;
+    font-weight: 100;
+    color: #262626;
+    line-height: 22.4px;
+}
