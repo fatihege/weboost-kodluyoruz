@@ -13,6 +13,10 @@ section.who-is .wrapper .button {
 }
 
 /* Join Us Section */
+section.join-us .wrapper {
+    max-width: 1152px;
+}
+
 section.join-us .wrapper .button {
     margin: 20px 0;
 }
