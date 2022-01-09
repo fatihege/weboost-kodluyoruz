@@ -1,1 +1,99 @@
 @import "../../sections/kodluyoruz-junior-sections.css";
+
+@media only screen and (max-width: 1280px) {
+    section.fellows .wrapper .fellows-grid {
+        grid-template-columns: 280px 280px 280px;
+        width: max-content;
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section.future-gens .wrapper,
+    section.levelup .wrapper {
+        max-width: 90vw;
+    }
+
+    section.open-source .wrapper .open-source-grid {
+        max-width: 90vw;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2px;
+    }
+
+    section.bsh .wrapper .bsh-grid {
+        flex-direction: column;
+    }
+
+    section.bsh .wrapper .bsh-grid .grid-item {
+        padding: 0;
+    }
+
+    section.bsh .wrapper .bsh-grid .grid-item > * {
+        max-width: 90vw;
+    }
+
+    section.hi-kod .wrapper .hi-kod-grid {
+        flex-direction: column;
+    }
+
+    section.hi-kod .wrapper .hi-kod-grid .grid-item {
+        padding: 0;
+    }
+
+    section.hi-kod .wrapper .hi-kod-grid .grid-item > * {
+        max-width: 90vw;
+    }
+
+    section.fellows .wrapper .fellows-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .be-partner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .be-partner p {
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.open-source .wrapper .open-source-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section.other .wrapper .other-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.other .wrapper .other-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section.other .wrapper .other-grid .project .project-image {
+        height: 224px;
+        width: 100%;
+    }
+
+    section.other .wrapper .other-grid .project .project-image img {
+        min-height: auto;
+        min-width: 100%;
+        object-fit: cover;
+    }
+
+    section.fellows .wrapper {
+        max-width: 90vw;
+    }
+
+    section.fellows .wrapper .fellows-grid {
+        grid-template-columns: 280px;
+    }
+
+    section.fellows .wrapper .fellows-grid .fellow .fellow-image {
+        width: 100%;
+    }
+}

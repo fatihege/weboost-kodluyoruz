@@ -26,9 +26,17 @@ section.levelup .wrapper .button {
 }
 
 /* Open Source Section */
+section.open-source .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section.open-source .wrapper .open-source-grid {
+    max-width: 1152px;
     display: grid;
-    grid-template-columns: 288px 288px 288px 288px;
+    grid-template-columns: 286px 286px 286px 286px;
     column-gap: 2px;
 }
 
@@ -39,6 +47,13 @@ section.open-source .wrapper .open-source-grid .grid-item .grid-item-title {
 }
 
 /* BSH Section */
+section.bsh .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section.bsh .wrapper .bsh-grid {
     display: flex;
     justify-content: center;
@@ -50,7 +65,7 @@ section.bsh .wrapper .bsh-grid .grid-item {
 }
 
 section.bsh .wrapper .bsh-grid .grid-item > * {
-    width: 504px;
+    max-width: 504px;
 }
 
 section.bsh .wrapper .bsh-grid .bsh-description ul {
@@ -62,30 +77,46 @@ section.bsh .wrapper .bsh-grid .bsh-description .button a {
 }
 
 /* Hi-Kod Section */
-section.hi-kod .hi-kod-grid {
+section.hi-kod .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hi-kod .wrapper .hi-kod-grid {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-section.hi-kod .hi-kod-grid .grid-item {
+section.hi-kod .wrapper .hi-kod-grid .grid-item {
     padding: 0 36px;
 }
 
-section.hi-kod .hi-kod-grid .grid-item > * {
-    width: 504px;
+section.hi-kod .wrapper .hi-kod-grid .grid-item > * {
+    max-width: 504px;
 }
 
-section.hi-kod .hi-kod-grid .hi-kod-description .button a {
+section.hi-kod .wrapper .hi-kod-grid .hi-kod-description ul {
+    padding-left: 16px;
+}
+
+section.hi-kod .wrapper .hi-kod-grid .hi-kod-description .button a {
     margin: 20px 0;
 }
 
 /* Other Section */
+section.other .wrapper {
+    max-width: 1152px;
+}
+
 section.other .wrapper .other-grid {
     display: grid;
-    grid-template-columns: 370px 370px 370px;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 16px;
+    padding: 0 8px;
 }
 
 section.other .wrapper .other-grid .project {
