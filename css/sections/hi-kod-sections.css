@@ -50,6 +50,12 @@ section.levelup .wrapper {
     max-width: 1152px;
 }
 
+section.levelup .wrapper .levelup-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 section.levelup .wrapper .levelup-grid .levelup-image,
 section.levelup .wrapper .levelup-grid .levelup-description {
     padding: 0 36px;
@@ -57,10 +63,15 @@ section.levelup .wrapper .levelup-grid .levelup-description {
 
 section.levelup .wrapper .levelup-grid .levelup-image img {
     max-width: 504px;
+    width: 504px;
 }
 
 section.levelup .wrapper .levelup-grid .levelup-description {
     padding-bottom: 40px;
+}
+
+section.levelup .wrapper .levelup-grid .levelup-description > * {
+    max-width: 504px;
 }
 
 section.levelup .wrapper .levelup-grid .levelup-description ul {

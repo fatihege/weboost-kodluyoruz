@@ -1,1 +1,64 @@
 @import "../../sections/hi-kod-sections.css";
+
+@media only screen and (max-width: 1024px) {
+    section.offers .wrapper {
+        max-width: 90%;
+    }
+
+    section.offers .wrapper .offers-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 8px;
+    }
+
+    section.purpose .wrapper,
+    section.levelup .wrapper {
+        max-width: 90%;
+    }
+
+    section.levelup .wrapper .levelup-grid {
+        flex-direction: column;
+    }
+
+    section.levelup .wrapper .levelup-grid .levelup-image,
+    section.levelup .wrapper .levelup-grid .levelup-image img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    section.levelup .wrapper .levelup-grid .levelup-description > * {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 48px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 18px;
+    }
+
+    section.offers .wrapper .offers-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section h2.section-title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
