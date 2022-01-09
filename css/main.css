@@ -1,3 +1,4 @@
 @import "_global.css";
 @import "responsive/header.css";
 @import "responsive/footer.css";
+@import "responsive/sections/_global-section.css";

@@ -91,14 +91,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    section.hero .wrapper > div > h2 {
-        font-size: 48px;
-    }
-
-    section.hero .wrapper > div .mission p {
-        font-size: 18px;
-    }
-
     section.mentors .wrapper .mentors-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -113,22 +105,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-    section.hero .wrapper > div > h2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    section.hero .wrapper > div .mission p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    section h2.section-title,
-    section h2.section-title-white {
-        font-size: 30px;
-        line-height: 32px;
-    }
-
     section.mentors .wrapper .mentors-grid {
         grid-template-columns: 1fr;
     }
