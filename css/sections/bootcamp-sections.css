@@ -20,6 +20,10 @@ section.active-bootcamps {
 
 section.active-bootcamps .wrapper {
     max-width: 1152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section.active-bootcamps .wrapper .bootcamps-grid {
@@ -93,6 +97,13 @@ section.active-bootcamps .wrapper .bootcamps-grid .bootcamp a .bootcamp-details 
 }
 
 /* Process Section */
+section.process .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section.process .process-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -208,7 +219,7 @@ section.old-bootcamps .wrapper .button {
 /* Analytics Section */
 section.analytics .wrapper .analytics-grid {
     max-width: 1154px;
-    width: 1154px;
+    width: 90vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -225,13 +236,24 @@ section.analytics .wrapper .analytics-grid .analytic .number {
 }
 
 /* Letter Section */
+section.letter .wrapper {
+    max-width: 1152px;
+}
+
+section.letter .wrapper .letter-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 section.letter .wrapper .letter-grid .letter-paragraph,
 section.letter .wrapper .letter-grid .letter-image {
     padding: 0 36px;
 }
 
-section.letter .wrapper .letter-grid .letter-paragraph p {
-    width: 504px;
+section.letter .wrapper .letter-grid .letter-paragraph p,
+section.letter .wrapper .letter-grid .letter-image img {
+    max-width: 504px;
 }
 
 section.letter .wrapper .letter-grid .letter-paragraph p em {
@@ -240,8 +262,4 @@ section.letter .wrapper .letter-grid .letter-paragraph p em {
 
 section.letter .wrapper .letter-grid .letter-paragraph .author {
     font-size: 18px;
-}
-
-section.letter .wrapper .letter-grid .letter-image img {
-    width: 504px;
 }

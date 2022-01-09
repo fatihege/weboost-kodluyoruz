@@ -1,1 +1,84 @@
 @import "../../sections/bootcamp-sections.css";
+
+@media only screen and (max-width: 1024px) {
+    section.active-bootcamps .wrapper .bootcamps-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 512px;
+    }
+
+    section.process .process-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 8px;
+    }
+
+    section.old-bootcamps .wrapper .bootcamps-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 512px;
+    }
+
+    section.analytics .wrapper .analytics-grid {
+        max-width: 1154px;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    section.letter .wrapper {
+        max-width: 90%;
+    }
+
+    section.letter .wrapper .letter-grid {
+        flex-direction: column;
+    }
+
+    section.letter .wrapper .letter-grid .letter-paragraph,
+    section.letter .wrapper .letter-grid .letter-image {
+        padding: 0;
+    }
+
+    section.letter .wrapper .letter-grid .letter-paragraph p,
+    section.letter .wrapper .letter-grid .letter-image img {
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 48px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 18px;
+    }
+
+    section.process .process-grid {
+        max-width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    section.analytics .wrapper .analytics-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section h2.section-title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
