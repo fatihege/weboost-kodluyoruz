@@ -1,1 +1,101 @@
 @import "../../sections/community-sections.css";
+
+@media only screen and (max-width: 1280px) {
+    section.communities .wrapper .communities-grid {
+        max-width: 90vw;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section.community-partners .wrapper .community-partners-grid {
+        max-width: 90vw;
+        width: 90vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section.move-on .wrapper .move-on-grid {
+        flex-direction: column;
+    }
+
+    section.move-on .wrapper .move-on-grid .move-on-paragraph,
+    section.move-on .wrapper .move-on-grid .move-on-image {
+        padding: 0 16px;
+    }
+
+    section.move-on .wrapper .move-on-grid .move-on-paragraph p,
+    section.move-on .wrapper .move-on-grid .move-on-image img {
+        max-width: 90vw;
+    }
+
+    section.future-activities .wrapper,
+    section.old-activities .wrapper {
+        max-width: 90vw;
+    }
+
+    section.future-activities .wrapper .activities-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 512px;
+    }
+
+    section.old-activities .wrapper {
+        padding: 96px 0 112px;
+    }
+
+    section.old-activities .wrapper .activities-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 512px;
+    }
+
+    section.entrepreneurs .entrepreneurs-grid {
+        flex-direction: column;
+    }
+
+    section.entrepreneurs .entrepreneurs-grid .entrepreneurs-image,
+    section.entrepreneurs .entrepreneurs-grid .entrepreneurs-description {
+        padding: 0 18px;
+    }
+
+    section.entrepreneurs .entrepreneurs-grid .entrepreneurs-image img,
+    section.entrepreneurs .entrepreneurs-grid .entrepreneurs-description p {
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 48px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 18px;
+    }
+
+    section.communities .wrapper .communities-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.community-partners .wrapper .community-partners-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section h2.section-title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
