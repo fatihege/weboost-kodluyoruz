@@ -8,18 +8,22 @@ section.hero::after {
 }
 
 /* Kodla Donusturelim Section */
-section.kodla-donusturelim .videos {
+section.kodla-donusturelim .wrapper {
+    max-width: 1152px;
+}
+
+section.kodla-donusturelim .wrapper .videos {
     padding-bottom: 69px;
 }
 
-section.kodla-donusturelim .videos .video {
+section.kodla-donusturelim .wrapper .videos .video {
     padding: 0 36px;
 }
 
-section.kodla-donusturelim .videos .video iframe {
+section.kodla-donusturelim .wrapper .videos .video iframe {
     border-radius: 4px;
+    max-width: 100%;
 }
-
 /* Offers Section */
 section.offers .offers-grid {
     display: grid;
@@ -41,8 +45,7 @@ section.offers .offers-grid .offers-block > ul {
 
 /* Goals Section */
 section.goals .wrapper {
-    padding: 16px 100px 92px;
-    margin: 0 auto;
+    max-width: 1152px;
 }
 
 /* Events Section */

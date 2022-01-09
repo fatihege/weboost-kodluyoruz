@@ -21,6 +21,11 @@
         flex-direction: column;
     }
 
+    section.success-stories .wrapper .videos .video,
+    section.promotion .wrapper .promotion-grid .video {
+        padding: 0 18px;
+    }
+
     section.success-stories .wrapper .videos .video iframe,
     section.promotion .wrapper .promotion-grid .video iframe {
         width: 90vw;
@@ -80,6 +85,10 @@
     section.hero .wrapper > div .mission {
         font-size: 18px;
     }
+
+    .mission .mission-wrapper {
+        margin: 0 16px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -97,13 +106,7 @@
         padding: 12px 32px;
     }
 
-    section.how-it-works .wrapper .title,
-    section.open-source .wrapper h2,
-    section.equality .wrapper .top h2,
-    section.success-stories .wrapper h2,
-    section.awards .wrapper .texts h2,
-    section.partners .wrapper .texts h2,
-    section.podcast .wrapper .details h2 {
+    section h2.section-title {
         font-size: 30px;
         line-height: 32px;
     }

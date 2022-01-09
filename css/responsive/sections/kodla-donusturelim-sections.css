@@ -1,1 +1,59 @@
 @import "../../sections/kodla-donusturelim-sections.css";
+
+@media only screen and (max-width: 1024px) {
+    section.kodla-donusturelim .wrapper {
+        width: 100%;
+    }
+
+    section.kodla-donusturelim .wrapper .videos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.kodla-donusturelim .wrapper .videos .video {
+        height: 340px;
+        width: 100%;
+    }
+
+    section.kodla-donusturelim .wrapper .videos .video iframe {
+        width: 100%;
+    }
+
+    section.offers .offers-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    section.goals .wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 48px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.hero .wrapper > div > h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.hero .wrapper > div .mission p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section h2.section-title {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
