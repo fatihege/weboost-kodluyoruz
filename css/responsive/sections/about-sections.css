@@ -1,1 +1,54 @@
 @import "../../sections/about-sections.css";
+
+@media only screen and (max-width: 1280px) {
+    section.strategy-advisory .wrapper .strategy-advisory-grid,
+    section.ambassadors .wrapper .ambassadors-grid,
+    section.our-team .wrapper .our-team-grid,
+    section.teachers .wrapper .teachers-grid {
+        grid-template-columns: 280px 280px 280px;
+        width: max-content;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section.who-is .wrapper,
+    section.join-us .wrapper {
+        max-width: 90vw;
+    }
+
+    section.our-story .wrapper .our-story-grid {
+        flex-direction: column;
+    }
+
+    section.our-story .wrapper .our-story-grid .grid-item {
+        padding: 0;
+    }
+
+    section.our-story .wrapper .our-story-grid .grid-item > * {
+        max-width: 90vw;
+    }
+
+    .activity-report p {
+        max-width: 90vw;
+    }
+
+    section.strategy-advisory .wrapper .strategy-advisory-grid,
+    section.ambassadors .wrapper .ambassadors-grid,
+    section.our-team .wrapper .our-team-grid,
+    section.teachers .wrapper .teachers-grid {
+        grid-template-columns: 280px 280px;
+    }
+
+    section.core .wrapper {
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    section.strategy-advisory .wrapper .strategy-advisory-grid,
+    section.ambassadors .wrapper .ambassadors-grid,
+    section.our-team .wrapper .our-team-grid,
+    section.teachers .wrapper .teachers-grid {
+        grid-template-columns: 280px;
+    }
+}

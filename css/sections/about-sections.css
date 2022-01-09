@@ -59,6 +59,13 @@ section.our-story .wrapper .our-story-grid .grid-item > * {
 }
 
 /* Strategy Advisory Section */
+section.strategy-advisory .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section.strategy-advisory .wrapper .strategy-advisory-grid {
     display: grid;
     grid-template-columns: 280px 280px 280px 280px;
@@ -272,4 +279,9 @@ section.teachers .wrapper .teachers-grid .teacher .teacher-role {
     font-weight: 100;
     color: #262626;
     line-height: 22.4px;
+}
+
+/* Core Section */
+section.core .wrapper {
+    max-width: 1152px;
 }
